@@ -32,7 +32,7 @@ body:
     id: zip
     attributes:
       label: Logger report zip
-      description: Drag the CONTON-bug-report-....zip here. Screenshots and videos are welcome too.
+      description: Drag the CONTON-bug-report-....zip here (GitHub takes up to 25 MB). Bigger? Upload it to Google Drive or Dropbox and paste the link.
     validations:
       required: true
   - type: input

@@ -15,7 +15,8 @@ Get `CONTON-Logger-<version>.zip`, unzip it anywhere you like (Documents is fine
 
 1. On your PS4, load GoldHEN and turn on the **klog server** in GoldHEN's settings.
 2. Find your PS4's IP address: *Settings > Network > View Connection Status*.
-3. Type the IP in the logger and press **Connect**.
+3. Run `CONTON-Logger.exe`. The first time, a welcome window asks for the IP: type it and press
+   **Start**. After that, the IP is at the top of the window and the button is **Connect**.
 4. **Connect before you start the game.** The PS4 doesn't keep old messages, so the logger can only
    save what happens while it is connected.
 5. Play like normal. If something goes wrong, a red bar appears at the top and the list on the right
@@ -32,12 +33,15 @@ shows the raw log, line numbers, CONTON codes and crash addresses. Switch at the
    or press *Paste screenshot*. As many as you like.
 4. Press **Create report**.
 5. Press **Post on GitHub**. The bug report form opens here, and the logger shows you the file:
-   drag it into the form. You can also send the file on Discord.
+   drag it into the form. You need a free GitHub account for this. No account? Send the file on
+   Discord instead.
 
 That one file has everything I need: the log with the time of every line, crash details, what the
 logger found, your notes and your pictures.
 
-Videos can make the file big. If it's too big for Discord, post it here instead.
+Videos can make the file big. Discord takes files up to 10 MB (more with Nitro) and GitHub up to
+25 MB. If yours is bigger, upload it to Google Drive or Dropbox and paste the link instead. The
+logger tells you when a report is over either limit.
 
 ## Windows or my antivirus complains
 
