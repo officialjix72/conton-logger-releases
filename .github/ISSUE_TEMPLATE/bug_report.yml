@@ -1,0 +1,42 @@
+name: Bug report
+description: Something went wrong with CONTON. Attach the zip the CONTON Logger made.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The quickest way to get a bug fixed: open the CONTON Logger, press **Report a bug** (top right),
+        and drag the zip it makes into the box below. That zip has the log, the crash details and
+        everything the logger found.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      placeholder: The game froze when I picked my character.
+    validations:
+      required: true
+  - type: textarea
+    id: before
+    attributes:
+      label: What were you doing right before?
+      placeholder: Deployed 3 new mods, started Xenoverse 2, went to the Time Machine.
+  - type: dropdown
+    id: often
+    attributes:
+      label: Does it happen every time?
+      options:
+        - Every time
+        - Sometimes
+        - Only once
+  - type: textarea
+    id: zip
+    attributes:
+      label: Logger report zip
+      description: Drag the CONTON-bug-report-....zip here. Screenshots and videos are welcome too.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: CONTON version
+      placeholder: e.g. 2.3.8
